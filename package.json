@@ -1,0 +1,31 @@
+{
+  "name": "@msadeeq/livetime",
+  "version": "1.0.0",
+  "description": "An Alpine JS plugin to display time in an html tag and update it every second.",
+  "main": "dist/plugin.cjs.js",
+  "module": "dist/plugin.esm.js",
+  "unpkg": "dist/plugin.min.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadSadeeq/livetime.git"
+  },
+  "keywords": [
+    "alpine",
+    "alpinejs",
+    "livetime",
+    "timeout",
+    "timer"
+  ],
+  "author": "Muhammad Sadeeq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuhammadSadeeq/livetime/issues"
+  },
+  "homepage": "https://github.com/MuhammadSadeeq/livetime#readme",
+  "dependencies": {
+    "esbuild": "^0.12.22"
+  }
+}
